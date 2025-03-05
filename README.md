@@ -29,7 +29,7 @@ Select "New repository" from the dropdown.
 Configure the Repository- When creating the repository, you’ll need to make several key decisionswhich are:
 Repository Name:
 Choose a name for your repository. It should reflect the purpose of your project (e.g., my-new-project,).
-GitHub will show you a preview of the repository URL once you provide a name, which will be based on your GitHub username (e.g., https://github.com/wawerscholar/assignment2).
+GitHub will show you a preview of the repository URL once you provide a name, which will be based on your GitHub username .
 You can provide a short description of the repository (e.g., "A project to build a personal website").
 Visibility:
 Public: Anyone can see your repository. It's ideal for open-source projects or when you want to share your code with the world.
@@ -173,7 +173,7 @@ Since the repository is not visible to the public, you miss out on the external 
 Install Git: If you don’t have Git installed, you'll need to download and install it from git-scm.com.
 Set up Git configuration: Set your name and email in Git so it can associate commits with your identity:
 git config --global user.name "Your Name"
-git config --global user.email "your.email@example.com"
+git config --global user.email ""
 2. Creating a GitHub Repository
 Go to GitHub: Navigate to GitHub and log in.
 Create a New Repository: On your GitHub dashboard, click the New button to create a repository. Give it a name, and choose visibility (public or private). You can choose to initialize with a README file or leave it empty.
@@ -184,7 +184,7 @@ Initialize Git in your project folder:
 git init
 This creates a .git folder in your project directory, marking it as a Git repository.
 4. Adding a Remote GitHub Repository
-Link your local Git repository to your GitHub repository. You'll find the repository URL on your GitHub page (e.g., https://github.com/username/repository.git).
+Link your local Git repository to your GitHub repository. You'll find the repository URL on your GitHub page .
 git remote add origin https://github.com/username/repository.git
 5. Staging Changes for Commit
 Staging means selecting which files or changes you want to include in the commit.
