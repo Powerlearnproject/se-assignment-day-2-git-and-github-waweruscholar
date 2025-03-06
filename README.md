@@ -50,11 +50,10 @@ Clone via HTTPS:
 On your repository page, click the green "Code" button and copy the HTTPS URL.
 Open your terminal or command prompt and navigate to the directory where you want to clone the repository.
 Run the following command to clone the repository:
-git clone https://github.com/waweruscholar/assingment2.git
+@
 Clone via SSH (optional):
 If you’ve set up SSH keys with GitHub, you can clone using SSH:
-git clone git@github.com:waweruscholar/assingment2.git
-
+@
 Step 6: Make Your First Commit
 Once the repository is cloned to your local machine, you can start adding files to it. For example, you can add your project files, make changes to the README, or start coding.
 Add files to the repository:
